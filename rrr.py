@@ -1,5 +1,5 @@
-
-salary = int(input("Enter your salary: "))
+import sys
+salary = int(sys.argv[1])
 
 if salary < 20000:
     bonus = salary * 5 / 100
